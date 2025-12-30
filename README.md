@@ -410,8 +410,8 @@ tracing = "0.1"                # 结构化日志
 
 如有问题或建议，请通过以下方式联系：
 
-- 提交 [Issue](https://github.com/your-username/chainfusion-arbitrage/issues)
-- 发送邮件至 your-email@example.com
+- 提交 [Issue](https://github.com/robustfengbin/ChainFusion-Arbitrage)
+- 发送邮件至 ucgygah@example.com
 
 ---
 
