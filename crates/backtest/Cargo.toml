@@ -1,0 +1,62 @@
+[package]
+name = "backtest"
+version = "0.1.0"
+edition = "2021"
+description = "Historical backtest module for triangular arbitrage analysis"
+
+[[bin]]
+name = "backtest"
+path = "src/main.rs"
+
+[dependencies]
+# 异步运行时
+tokio = { workspace = true }
+futures-util = { workspace = true }
+
+# 以太坊
+ethers = { workspace = true }
+
+# 序列化
+serde = { workspace = true }
+serde_json = { workspace = true }
+
+# 数据库
+sqlx = { workspace = true }
+
+# 时间处理
+chrono = { workspace = true }
+chrono-tz = "0.10"
+
+# 日志
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+
+# 错误处理
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+
+# 配置
+dotenv = { workspace = true }
+
+# 数值计算
+rust_decimal = { workspace = true }
+rust_decimal_macros = { workspace = true }
+
+# CLI
+clap = { workspace = true }
+
+# 进度条
+indicatif = { workspace = true }
+
+# 并发
+dashmap = { workspace = true }
+
+# 其他
+hex = { workspace = true }
+
+# URL 编码
+urlencoding = { workspace = true }
+
+# 内部 crates
+config_crate = { workspace = true }
+models = { workspace = true }

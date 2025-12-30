@@ -1,0 +1,26 @@
+[package]
+name = "chainfusion_arbitrage"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "chainfusion_arbitrage"
+path = "src/main.rs"
+
+[dependencies]
+models = { workspace = true }
+config_crate = { workspace = true }
+services = { workspace = true }
+strategies = { workspace = true }
+api = { workspace = true }
+utils = { workspace = true }
+dex = { workspace = true }
+solana_arb = { workspace = true }
+
+anyhow = { workspace = true }
+tokio = { workspace = true }
+tracing = { workspace = true }
+ethers = { workspace = true }
+rust_decimal = { workspace = true }
+
+sqlx = { workspace = true }

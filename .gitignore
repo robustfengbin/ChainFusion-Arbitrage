@@ -1,0 +1,30 @@
+# Rust 编译产物
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# 环境配置
+.env
+
+# 日志文件
+logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 回测数据
+backtest_data/
+
+scripts/backtest_data
+
+scripts/backtest_data/analysis_results.json
+
+scripts/analysis_results.csv

@@ -1,0 +1,46 @@
+[package]
+name = "services"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+models = { workspace = true }
+config_crate = { workspace = true }
+utils = { workspace = true }
+
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+tokio = { workspace = true }
+async-trait = { workspace = true }
+tracing = { workspace = true }
+futures-util = { workspace = true }
+
+serde = { workspace = true }
+serde_json = { workspace = true }
+chrono = { workspace = true }
+rust_decimal = { workspace = true }
+
+sqlx = { workspace = true }
+reqwest = { workspace = true }
+ethers = { workspace = true }
+
+dashmap = { workspace = true }
+parking_lot = { workspace = true }
+lazy_static = { workspace = true }
+
+# 邮件发送
+lettre = { workspace = true }
+chrono-tz = { workspace = true }
+
+[dev-dependencies]
+dotenv = "0.15"
+tracing-subscriber = "0.3"
+executor = { workspace = true }
+
+[[example]]
+name = "test_email"
+path = "examples/test_email.rs"
+
+[[example]]
+name = "test_arbitrage_execute"
+path = "examples/test_arbitrage_execute.rs"

@@ -1,0 +1,25 @@
+[package]
+name = "dex"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+models = { workspace = true }
+
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+tokio = { workspace = true }
+async-trait = { workspace = true }
+tracing = { workspace = true }
+
+serde = { workspace = true }
+serde_json = { workspace = true }
+chrono = { workspace = true }
+rust_decimal = { workspace = true }
+
+ethers = { workspace = true }
+hex = { workspace = true }
+
+dashmap = { workspace = true }
+parking_lot = { workspace = true }
+lazy_static = "1.4"

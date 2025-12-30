@@ -1,0 +1,33 @@
+[package]
+name = "strategies"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+models = { workspace = true }
+services = { workspace = true }
+dex = { workspace = true }
+executor = { workspace = true }
+config_crate = { workspace = true }
+utils = { workspace = true }
+
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+tokio = { workspace = true }
+async-trait = { workspace = true }
+tracing = { workspace = true }
+
+serde = { workspace = true }
+serde_json = { workspace = true }
+chrono = { workspace = true }
+rust_decimal = { workspace = true }
+rust_decimal_macros = { workspace = true }
+
+ethers = { workspace = true }
+sqlx = { workspace = true }
+reqwest = { workspace = true }
+hex = { workspace = true }
+
+dashmap = { workspace = true }
+parking_lot = { workspace = true }
+uuid = { workspace = true }

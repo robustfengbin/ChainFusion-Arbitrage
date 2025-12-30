@@ -1,0 +1,32 @@
+[package]
+name = "api"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+models = { workspace = true }
+services = { workspace = true }
+strategies = { workspace = true }
+config_crate = { workspace = true }
+utils = { workspace = true }
+
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+tokio = { workspace = true }
+async-trait = { workspace = true }
+tracing = { workspace = true }
+
+serde = { workspace = true }
+serde_json = { workspace = true }
+chrono = { workspace = true }
+rust_decimal = { workspace = true }
+
+axum = { workspace = true }
+tower = { workspace = true }
+tower-http = { workspace = true }
+http-body-util = { workspace = true }
+
+sqlx = { workspace = true }
+ethers = { workspace = true }
+
+dashmap = { workspace = true }

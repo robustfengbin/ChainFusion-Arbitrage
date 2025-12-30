@@ -1,0 +1,45 @@
+[package]
+name = "executor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# 异步运行时
+tokio = { workspace = true }
+
+# 以太坊相关
+ethers = { workspace = true }
+
+# 序列化
+serde = { workspace = true }
+serde_json = { workspace = true }
+
+# 错误处理
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+
+# 日志
+tracing = { workspace = true }
+
+# 数值计算
+rust_decimal = { workspace = true }
+rust_decimal_macros = { workspace = true }
+
+# 其他
+async-trait = { workspace = true }
+hex = { workspace = true }
+
+# HTTP 客户端 (用于 Flashbots)
+reqwest = { workspace = true }
+
+# 正则表达式 (用于错误解析)
+regex = { workspace = true }
+lazy_static = { workspace = true }
+chrono = { workspace = true }
+chrono-tz = { workspace = true }
+
+# 内部 crates
+models = { workspace = true }
+config_crate = { workspace = true }
+services = { workspace = true }
+dex = { workspace = true }

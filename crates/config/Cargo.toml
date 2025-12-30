@@ -1,0 +1,10 @@
+[package]
+name = "config_crate"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = { workspace = true }
+serde = { workspace = true }
+dotenv = { workspace = true }
+urlencoding = { workspace = true }
